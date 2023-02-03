@@ -37,7 +37,6 @@ var _ = ginkgo.Describe(ExampleTestSuite, func() {
 		"this is what todo to pass the test case", // test case remediation
 		"normative",                             // indicates the type of test: normative or informative
 		identifiers.NoDocumentedProcess,         // indicates the process to follow pass certification in spite for this test failing
-		"v1.0.0",                                // version of the test
 		"http://myorg.org/testplan Section 5.2", // link to document describing the test in detail
 		false,                                   // whether automated tests exist for this test
 		"mytag", "pre_release",                  // arbitrary ginkgo labels used to filter the test
