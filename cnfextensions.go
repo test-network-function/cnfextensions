@@ -21,6 +21,7 @@ import (
 	"github.com/test-network-function/cnf-certification-test/cnf-certification-test/results"
 	"github.com/test-network-function/cnf-certification-test/pkg/provider"
 	"github.com/test-network-function/cnf-certification-test/pkg/testhelper"
+	"github.com/test-network-function/test-network-function-claim/pkg/claim"
 )
 
 const (
@@ -29,18 +30,7 @@ const (
 
 // Simple example test suite. More complex scenarios should use subdirectories
 var _ = ginkgo.Describe(ExampleTestSuite, func() {
-
-	TestExampleIdentifier := identifiers.AddCatalogEntry(
-		"example",                      // test name
-		ExampleTestSuite,               // test suite name
-		`this is an example test case`, // test case description
-		"this is what todo to pass the test case", // test case remediation
-		"normative",                             // indicates the type of test: normative or informative
-		identifiers.NoDocumentedProcess,         // indicates the process to follow pass certification in spite for this test failing
-		"http://myorg.org/testplan Section 5.2", // link to document describing the test in detail
-		false,                                   // whether automated tests exist for this test
-		"mytag", "pre_release",                  // arbitrary ginkgo labels used to filter the test
-	)
+	_, TestExampleIdentifier := claim.BuildTestCaseDescription("example", ExampleTestSuite, `this is an example test case`, `this is what todo to pass the test case`, `normative`, "No Documented Process", "http://myorg.org/testplan Section 5.2", false, "mytag", "pre_release")
 	var env provider.TestEnvironment
 	ginkgo.BeforeEach(func() {
 		env = provider.GetTestEnvironment()
