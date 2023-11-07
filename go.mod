@@ -6,7 +6,7 @@ replace github.com/openshift/machine-config-operator => github.com/openshift/mac
 
 require (
 	github.com/onsi/ginkgo/v2 v2.13.0
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.3
 	github.com/test-network-function/cnf-certification-test v0.0.0-20230202174224-a895372fb285
 	github.com/test-network-function/test-network-function-claim v1.0.17
 )
