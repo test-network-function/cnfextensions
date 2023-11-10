@@ -8,7 +8,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.13.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/test-network-function/cnf-certification-test v0.0.0-20230202174224-a895372fb285
-	github.com/test-network-function/test-network-function-claim v1.0.30
+	github.com/test-network-function/test-network-function-claim v1.0.31
 )
 
 require (
