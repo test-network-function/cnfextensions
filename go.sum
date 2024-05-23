@@ -966,8 +966,8 @@ github.com/test-network-function/cnf-certification-test v0.0.0-20230202174224-a8
 github.com/test-network-function/cnf-certification-test v0.0.0-20230202174224-a895372fb285/go.mod h1:xSdEO0Xm0LXP81iZT1kZYq5YikLPVUAgvvOzNL2K2JU=
 github.com/test-network-function/privileged-daemonset v0.0.7 h1:goz2ChO6gPf4fRRQC5qPzq29jN3fGBxptipf8w9Hgyk=
 github.com/test-network-function/privileged-daemonset v0.0.7/go.mod h1:1HaDi4FRNIQ47wElC9k8MAOIhjTffzp5mWVF+FkGXJM=
-github.com/test-network-function/test-network-function-claim v1.0.36 h1:Gez1dX3nIjDexd4e8qsnXBbV7v7EhxKfYmejBNIivMU=
-github.com/test-network-function/test-network-function-claim v1.0.36/go.mod h1:gCHWd+bVmlmyuNe8iLGjYSdfw1bNQaKccV/Zb0edgwE=
+github.com/test-network-function/test-network-function-claim v1.0.38 h1:jqheVCTuNQIOqbDVQqSFXEsKSPXel7PXKOXzWnswujk=
+github.com/test-network-function/test-network-function-claim v1.0.38/go.mod h1:lJxC/NoJG58oxqBiQ8LQUzNE6mnv5vgRDLT5gpZhyhY=
 github.com/tidwall/pretty v1.0.0/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
 github.com/timakin/bodyclose v0.0.0-20190721030226-87058b9bfcec/go.mod h1:Qimiffbc6q9tBWlVV6x0P9sat/ao1xEkREYPPj9hphk=
 github.com/tmc/grpc-websocket-proxy v0.0.0-20170815181823-89b8d40f7ca8/go.mod h1:ncp9v5uamzpCO7NfCPTXjqaC+bZgJeR0sMTm6dMHP7U=
